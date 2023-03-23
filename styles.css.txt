@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(180deg, #040509 0%, #075CAF 100%);
+ }
+h1,p,section {
+  color: #C9FEFC;
+}
+input {
+  display: inline;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 12px;
+gap: 10px;
+background: rgba(4, 5, 9, 0.3);
+border: 1px solid #C9FEFC;
+border-radius: 6px;
+}
+
+select {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 12px;
+gap: 10px;
+background: rgba(8, 31, 52, 1);
+;
+border: 1px solid #C9FEFC;
+border-radius: 6px;
+color: #C9FEFC;
+}
+
+fieldset {
+  color: #C9FEFC;
+  background: rgba(201, 254, 252, 0.15);
+border: 1px solid #C9FEFC;
+border-radius: 10px;
+padding: 4px 12px 12px 12px;
+margin-bottom: 12px;
+
+}
+
+
+
+input[age] {
+  min: 18;
+  max: 120
+}
+textarea {
+  border: 1px solid #C9FEFC;
+border-radius: 6px;
+  width: 100%;
+  background: rgba(4, 5, 9, 0.3)
+  
+}

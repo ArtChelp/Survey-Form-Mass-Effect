@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title> MassEffectQuestionaire </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+      <main>
+      <h1 id="title">What's you favorite <em>Mass Effect</em> game and why?
+        </h1>
+        <p id="description">A questionaire about your favorite game and your thoughts about it.
+          </p>
+          <section>
+          <form method="post" id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name:<input id="name" type="text" placeholder="Commander Shepard" required>
+            </label>
+            <br>
+            <label for="email" id="email-label" >Email:<input id="email" type="email" placeholder="jokerisfunny@gmail.com" required>
+              </label>
+              <br>
+              <label for="number" id="number-label">Age<input id="number" type="number" name="number" placeholder="18" min="12" max="120">
+</label>
+<br>
+<label id="select">What Mass Effect game is your favorite?</label>
+<fieldset>
+  <legend>Which one do you like the most?</legend>
+<input type="radio" value="Mass Effect 1" name="game">Mass Effect 1
+<br>
+<input type="radio" value="Mass Effect 2" name="game">Mass Effect 2
+<br>
+<input type="radio" value="Mass Effect 3" name="game">Mass Effect 3
+</fieldset>
+<fieldset>
+  <legend>What exactly do you like in this game?</legend>
+  <input type="checkbox" value="story" id="story"> Story
+  <br>
+  <input type="checkbox" value="combat" id="combat"> Combat
+  <br>
+  <input type="checkbox" value="characters" id="characters"> Characters
+  <br>
+  <input type="checkbox" value="cinematics" id="cinematics"> Cinematics
+  <br>
+  <input type="checkbox" value="rpgelemants" id="rpgelements"> RPG elements
+  <br>
+  <input type="checkbox" value="exploration" id="exploration"> Exploration
+  <br>
+  <input type="checkbox" value="graphics" id="exploration"> Graphics 
+  </fieldset>
+<fieldset>
+<legend>What character is your favorite romance option?</legend>
+<select id="dropdown">
+   <option value="">(select one)</option>
+            <option value="1">Ashley Williams</option>
+            <option value="2">Kaidan Alenko</option>
+            <option value="3">Liara T'Soni </option>
+            <option value="4">Tali'Zorah</option>
+            <option value="5">Miranda Lawson</option>
+            <option value="6">Jack</option>
+            <option value="7">Jacob Taylor</option>
+            <option value="8">Garrus Vakarian</option>
+            <option value="9">Samara</option>
+            <option value="10">Morinth</option>
+            <option value="11">Thane Krios</option>
+            <option value="12">James Vega</option>
+            <option value="13">Kelly Chambers</option>
+            <option value="14">Steve Cortez</option>
+            <option value="15">Samantha Traynor</option>
+            <option value="16">Diana Allers</option>
+            <option value="17">Javik</option>
+</select>
+</fieldset>
+<fieldset>
+  <legend>Who are your favorite characters?</legend>
+  <input type="checkbox" value="Kaidan Alenko" name="bestchar"  id="kaidan" > Kaidan Alenko
+  <br>
+  <input type="checkbox" value="Tali'Zorah" name="bestchar" id="tali"> Tali'Zorah nar Rayya/vas Neema/vas Normandy
+  <br>
+  <input type="checkbox" value="Liara T'Soni" name="bestchar" id="liara"> Liara T'Soni
+  <br>
+  <input type="checkbox" value="Garrus Vakarian" name="bestchar" id="garrus"> Garrus Vakarian
+  <br>
+  <input type="checkbox" value="Ashley Williams" name="bestchar" id="ashley"> Ashley Williams
+  <br>
+  <input type="checkbox" value="Urdnot Wrex" name="bestchar" id="wrex"> Urdnot Wrex
+  <br>
+  <input type="checkbox" value="Kasumi Goto" name="bestchar" id="kasumi"> Kasumi Goto
+  <br>
+  <input type="checkbox" value="Grunt" name="bestchar" id="grunt"> Grunt
+  <br>
+<input type="checkbox" value="Thane Krios" name="bestchar" id="thane"> Thane Krios
+<br>
+<input type="checkbox" value="Jack" name="bestchar" id="jack"> Jack
+<br>
+<input type="checkbox" value="Miranda Lawson" name="bestchar" id="miranda"> Miranda Lawson
+<br>
+<input type="checkbox" value="Legion" name="bestchar" id="legion"> Legion
+<br>
+<input type="checkbox" value="Zaeed Massani" name="bestchar" id="zaeed"> Zaeed Massani
+<br>
+<input type="checkbox" value="Samara" name="bestchar" id="samara"> Samara
+<br>
+<input type="checkbox" value="Morinth" name="bestchar" id="morinth"> Morinth
+<br>
+<input type="checkbox" value="Mordin Solus" name="bestchar" id="mordin"> Mordin Solus
+<br>
+<input type="checkbox" value="Jacob Taylor" name="bestchar" id="jacob"> Jacob Taylor
+<br>
+<input type="checkbox" value="Javik" name="bestchar" id="javik"> Javik
+<br>
+<input type="checkbox" value="James Vega" name="bestchar" id="vega"> James Vega
+<br>
+<input type="checkbox" value="EDI" name="bestchar" id="edi"> EDI
+<br>
+<input type="checkbox" value="Aria T'Loak" name="bestchar" id="aria"> Aria T'Loak
+<br>
+<input type="checkbox" value="Nyreen Kandros" name="bestchar" id="nyreen"> Nyreen Kandros
+  </fieldset>
+<fieldset>
+<legend>Write down your thoughts/comments about it</legend>
+<textarea></textarea>
+  </fieldset>
+  <button type="submit" id="submit"> Submit</button>
+  </section>
+            </form>
+            
+      </fieldset>
+      </main>
+      </body>
+  </html>
